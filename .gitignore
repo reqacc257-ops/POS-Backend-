@@ -1,0 +1,19 @@
+# Ignore the virtual environment (it's too big for GitHub)
+venv/
+
+# Ignore your private "key locker"
+.env
+
+# Ignore the local database (your partner will have their own)
+db.sqlite3
+
+pos_db
+
+# Ignore temporary Python files
+__pycache__/
+*.pyc
+
+# Ignore frontend dependencies and build output
+frontend/node_modules/
+frontend/build/
+frontend/node_modules/.cache/
